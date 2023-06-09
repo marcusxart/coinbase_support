@@ -18,6 +18,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/assets/svg/home-hero__bg.svg')",
       },
+      fontSize: {
+        "title-font-1": "28px",
+      },
     },
   },
   plugins: [],

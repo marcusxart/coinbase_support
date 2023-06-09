@@ -9,7 +9,7 @@ const PageContainer = ({ children }: Props) => {
   return (
     <>
       <nav className="border-b border-line border-solid w-full flex justify-center">
-        <div className="max-w-[1220px] h-[60px] flex items-center w-full">
+        <div className="max-w-[1220px] h-[60px] flex items-center w-full px-6 md:px-0">
           <div className="w-fit h-fit">
             <Image
               src="/assets/svg/logo.svg"
@@ -23,7 +23,7 @@ const PageContainer = ({ children }: Props) => {
               alt="logo"
               width={112}
               height={50}
-              className="inline-block  lg:hidden"
+              className="inline-block h-auto lg:hidden"
             />
           </div>
         </div>

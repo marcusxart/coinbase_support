@@ -15,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={workSans.className}>
+      <body
+        suppressHydrationWarning={true}
+        className={`${workSans.className} text-text`}
+      >
         {children}
       </body>
     </html>
